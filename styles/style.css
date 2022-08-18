@@ -284,6 +284,9 @@ footer h4 {
 }
 
 /* Slideshow container */
+
+.mySlides {display: none}
+img {vertical-align: middle;}
 .slideshow-container {
     max-width: 1100px;
     position: relative;
