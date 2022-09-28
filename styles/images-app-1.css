@@ -1,0 +1,60 @@
+/* Zoom slike */
+
+.image {
+    cursor: pointer;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: 50% 50%;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 16px;
+}
+
+.image.first-first {
+    background-image: url(../photos/apartment-1/living-room.jpg);
+}
+
+.image.first-second {
+    background-image: url(../photos/apartment-1/living-room-2.jpg);
+}
+
+.image.first-third {
+    background-image: url(../photos/apartment-1/kitchen.jpg);
+}
+
+.image.first-fourth {
+    background-image: url(../photos/apartment-1/kitchen-2.jpg);
+}
+
+.image.first-fifth {
+    background-image: url(../photos/apartment-1/bedroom.jpg);
+}
+
+.image.first-sixth {
+    background-image: url(../photos/apartment-1/bedroom-2.jpg);
+}
+
+.image.first-seventh {
+    background-image: url(../photos/apartment-1/terrace.jpg);
+}
+
+.image.first-eighth {
+    background-image: url(../photos/apartment-1/toilet.jpg)
+}
+
+.zoom {
+    padding: 20px;
+    transition: transform .2s;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    cursor: pointer;
+    -ms-transform: scale(1.5);
+    /* IE 9 */
+    -webkit-transform: scale(1.5);
+    /* Safari 3-8 */
+    transform: scale(1.5);
+}

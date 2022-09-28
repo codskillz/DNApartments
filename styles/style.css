@@ -65,7 +65,7 @@ header h2 {
     display: inline-block;
 }
 
-.nav-links::before, 
+.nav-links::before,
 .nav-links::after {
     content: '';
     position: absolute;
@@ -87,7 +87,7 @@ header h2 {
     transform-origin: right;
 }
 
-.nav-links:hover::before, 
+.nav-links:hover::before,
 .nav-links:hover::after {
     transform: scaleX(1);
 }
@@ -157,43 +157,6 @@ header h2 {
     100% {
         transform: scaleY(1);
     }
-}
-
-/* Zoom slike */
-
-.image {
-    cursor: pointer;
-    display: inline-block;
-    width: 290px;
-    height: 290px;
-    background-size: cover;
-    background-position: 50% 50%;
-    margin-left: 8px;
-    margin-right: 8px;
-    margin-bottom: 16px;
-}
-
-.image.first {
-    background-image: url(../photos/apartment-1/dnevni-boravak.jpg);
-}
-
-.image.second {
-    background-image: url(../photos/apartment-1/skale.jpg);
-}
-
-.zoom {
-    padding: 20px;
-    transition: transform .2s;
-    margin: 0 auto;
-}
-
-.zoom:hover {
-    cursor: pointer;
-    -ms-transform: scale(1.2);
-    /* IE 9 */
-    -webkit-transform: scale(1.2);
-    /* Safari 3-8 */
-    transform: scale(1.2);
 }
 
 /* Kontakt forma */
@@ -299,8 +262,14 @@ footer h4 {
 
 /* Slideshow container */
 
-.mySlides { display: none }
-img { vertical-align: middle; }
+.mySlides {
+    display: none
+}
+
+img {
+    vertical-align: middle;
+}
+
 .slideshow-container {
     max-width: 1100px;
     position: relative;
