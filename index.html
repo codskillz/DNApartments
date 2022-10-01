@@ -9,7 +9,6 @@
     <link rel="stylesheet" type="text/css" href="styles/images-app-1.css" />
     <link rel="stylesheet" type="text/css" href="styles/images-app-2.css" />
     <link rel="stylesheet" type="text/css" href="styles/images-app-3.css" />
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <title>Apartments D & N</title>
 </head>
 
@@ -42,45 +41,40 @@
         </div>
     </header>
 
-    <section id="cover">
-        <div class="slideshow-container">
+    <div class="slideshow-background">
+        <section id="cover">
+            <div class="slideshow-container">
 
-            <div class="mySlides fade">
-                <div class="numbertext">1 / 4</div>
-                <img src="./photos/cover/vis.jpg" style="width:100%" class="cover-img-size">
-                <div class="text">Island Vis</div>
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="./photos/cover/vis.jpg" style="width:100%" class="cover-img-size">
+                    <div class="text">Island Vis</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="./photos/cover/stiniva.jpg" style="width:100%" class="cover-img-size">
+                    <div class="text">Stiniva Cove</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="./photos/cover/blue-cave.jpg" style="width:100%" class="cover-img-size">
+                    <div class="text">Blue Cave Biševo</div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+
             </div>
+    </div>
+    <br>
 
-            <div class="mySlides fade">
-                <div class="numbertext">2 / 4</div>
-                <img src="./photos/cover/stiniva.jpg" style="width:100%" class="cover-img-size">
-                <div class="text">Stiniva Cove</div>
-            </div>
-
-            <div class="mySlides fade">
-                <div class="numbertext">3 / 4</div>
-                <img src="./photos/cover/blue-cave.jpg" style="width:100%" class="cover-img-size">
-                <div class="text">Blue Cave Biševo</div>
-            </div>
-
-            <div class="mySlides fade">
-                <div class="numbertext">4 / 4</div>
-                <img src="./photos/cover/location.jpg" style="width: 100%" class="cover-img-size">
-                <div class="text">Apartment Location</div>
-            </div>
-
-            <a class="prev" onclick="plusSlides(-1)">❮</a>
-            <a class="next" onclick="plusSlides(1)">❯</a>
-
-        </div>
-        <br>
-
-        <div style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-            <span class="dot" onclick="currentSlide(4)"></span>
-        </div>
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
     </section>
 
     <br>
@@ -88,20 +82,37 @@
     <section id="about">
         <h3 class="section-title">About</h3>
         <span class="title-underline"></span>
-        <p class="texts">
-            Apartments D & N are located in Vis, 600 meters from the city beach <i>Prirovo</i>, and have air
-            conditioning, free WiFi and access to the terrace.
-            All units include tiled floors, a seating area with a flat-screen cable TV, a fully equipped kitchen with a
-            dining area, and a private bathroom. Guests can use the fridge, oven, hob and electric kettle.
-            The facility is located near popular attractions, such as <i>Zmorac</i>, <i>Vagan</i> beaches and <i>Fort
-                George</i>. The details that you will encounter in our house offer you countless opportunities for
-            beautiful selfies that will bring a smile back to your face even when you leave our island, but we also hope
-            to make you want to come back to us again.
-            As hosts, we are at your disposal for everything you need, and we will be extremely pleased if we can
-            satisfy your every request! THE HOSTS ARE VACCINATED WITH THE PFIZER VACCINE! :)
-            The facility is located in the immediate vicinity of all amenities: tavern-pizzeria, shop, clinic, currency
-            exchange, fast food, park, ferry, outdoor gym near the beach and the city beach itself.
-        </p>
+        <div class="about-text">
+            <h3>About island:</h3>
+            <p>
+                <b>Vis</b> is a small Croatian island in the Adriatic Sea. It is the farthest inhabited island off the
+                Croatian mainland. Once known for its thriving fishing industry in the late 19th and early 20th century,
+                the main present-day industries on the island are agriculture and tourism.
+            </p>
+            <p>
+
+            </p>
+        </div>
+        <div class="about-text">
+            <h3>About apartments:</h3>
+            <p>
+                Apartments D & N are located in Vis, 600 meters from the city beach <i>Prirovo</i>, and have air
+                conditioning, free WiFi and access to the terrace.
+                All units include tiled floors, a seating area with a flat-screen cable TV, a fully equipped kitchen
+                with a
+                dining area, and a private bathroom. Guests can use the fridge, oven, hob and electric kettle.
+                The facility is located near popular attractions, such as <i>Zmorac</i>, <i>Vagan</i> beaches and
+                <i>Fort
+                    George</i>. The details that you will encounter in our house offer you countless opportunities for
+                beautiful selfies that will bring a smile back to your face even when you leave our island, but we also
+                hope
+                to make you want to come back to us again.
+                As hosts, we are at your disposal for everything you need, and we will be extremely pleased if we can
+                satisfy your every request! THE HOSTS ARE VACCINATED WITH THE PFIZER VACCINE! :)
+                The facility is located in the immediate vicinity of all amenities: tavern-pizzeria, shop, clinic,
+                currency
+                exchange, fast food, park, ferry, outdoor gym near the beach and the city beach itself.
+            </p>
     </section>
 
     <hr>
@@ -255,7 +266,7 @@
             <b>Bedroom: </b>1 queen bed
         </p>
 
-        <!--- <script src="scripts/images-app/images-app-3.js"></script> -->
+        <script src="scripts/images-app/images-app-3.js"></script>
 
         <div class="row">
             <div class="column">

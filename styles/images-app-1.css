@@ -13,35 +13,35 @@
 }
 
 .image.first-first {
-    background-image: url(../photos/apartment-1/living-room.jpg);
+    background-image: url(../photos/apartment-1/resized/living-room.jpg);
 }
 
 .image.first-second {
-    background-image: url(../photos/apartment-1/living-room-2.jpg);
+    background-image: url(../photos/apartment-1/resized/living-room-2.jpg);
 }
 
 .image.first-third {
-    background-image: url(../photos/apartment-1/kitchen.jpg);
+    background-image: url(../photos/apartment-1/resized/kitchen.jpg);
 }
 
 .image.first-fourth {
-    background-image: url(../photos/apartment-1/kitchen-2.jpg);
+    background-image: url(../photos/apartment-1/resized/kitchen-2.jpg);
 }
 
 .image.first-fifth {
-    background-image: url(../photos/apartment-1/bedroom.jpg);
+    background-image: url(../photos/apartment-1/resized/bedroom.jpg);
 }
 
 .image.first-sixth {
-    background-image: url(../photos/apartment-1/bedroom-2.jpg);
+    background-image: url(../photos/apartment-1/resized/bedroom-2.jpg);
 }
 
 .image.first-seventh {
-    background-image: url(../photos/apartment-1/terrace.jpg);
+    background-image: url(../photos/apartment-1/resized/terrace.jpg);
 }
 
 .image.first-eighth {
-    background-image: url(../photos/apartment-1/toilet.jpg)
+    background-image: url(../photos/apartment-1/resized/toilet.jpg)
 }
 
 .zoom {
@@ -52,9 +52,9 @@
 
 .zoom:hover {
     cursor: pointer;
-    -ms-transform: scale(1.5);
+    -ms-transform: scale(1.3);
     /* IE 9 */
-    -webkit-transform: scale(1.5);
+    -webkit-transform: scale(1.3);
     /* Safari 3-8 */
-    transform: scale(1.5);
+    transform: scale(1.3);
 }
