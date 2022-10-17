@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="styles/images-app-1.css" />
     <link rel="stylesheet" type="text/css" href="styles/images-app-2.css" />
     <link rel="stylesheet" type="text/css" href="styles/images-app-3.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <title>Apartments D & N</title>
 </head>
 
@@ -81,15 +82,25 @@
                 </script>
 
             </div>
+            <br>
     </div>
-
-    <br>
 
     <div style="text-align:center">
         <span class="dot" onclick="currentSlide(1)"></span>
         <span class="dot" onclick="currentSlide(2)"></span>
         <span class="dot" onclick="currentSlide(3)"></span>
         <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+
+    <!--- COVER 4 PHONE --->
+
+    <div id="slider">
+        <figure>
+            <img src="photos/cover/resized/vis.jpg" alt>
+            <img src="photos/cover/resized/sunset.jpg" alt>
+            <img src="photos/cover/resized/blue-cave.jpg" alt>
+            <img src="photos/cover/resized/stiniva.jpg" alt>
+        </figure>
     </div>
 
     </section>
@@ -169,7 +180,13 @@
             <b>Living room: </b>1 sofa bed
         </p>
 
-        <script src="scripts/images-app/images-app-1.js"></script>
+        <div class="desktop-gallery">
+            <script src="scripts/images-app/images-app-1.js"></script>
+        </div>
+
+        <div class="mobile-gallery">
+            <script src="scripts/images-app/mobile/images-app-mob-1.js"></script>
+        </div>
 
         <div class="row">
             <div class="column">
@@ -191,6 +208,7 @@
                     </tr>
                 </table>
             </div>
+            <div class="table-break"></div>
             <div class="column">
                 <table>
                     <tr>
@@ -241,8 +259,13 @@
             <b>Bedroom: </b>1 queen bed
         </p>
 
-        <script src="scripts/images-app/images-app-2.js"></script>
+        <div class="desktop-gallery">
+            <script src="scripts/images-app/images-app-2.js"></script>
+        </div>
 
+        <div class="mobile-gallery">
+            <script src="scripts/images-app/mobile/images-app-mob-2.js"></script>
+        </div>
         <div class="row">
             <div class="column">
                 <table>
@@ -263,6 +286,7 @@
                     </tr>
                 </table>
             </div>
+            <div class="table-break"></div>
             <div class="column">
                 <table>
                     <tr>
@@ -313,7 +337,13 @@
             <b>Bedroom: </b>1 queen bed
         </p>
 
-        <script src="scripts/images-app/images-app-3.js"></script>
+        <div class="desktop-gallery">
+            <script src="scripts/images-app/images-app-3.js"></script>
+        </div>
+
+        <div class="mobile-gallery">
+            <script src="scripts/images-app/mobile/images-app-mob-3.js"></script>
+        </div>
 
         <div class="row">
             <div class="column">
@@ -335,6 +365,7 @@
                     </tr>
                 </table>
             </div>
+            <div class="table-break"></div>
             <div class="column">
                 <table>
                     <tr>
@@ -418,6 +449,7 @@
 
     <script src="scripts/image-viewer.js"></script>
     <script src="scripts/slideshow.js"></script>
+    <script src="scripts/header-scroll.js"></script>
 
 </body>
 
