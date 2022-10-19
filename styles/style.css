@@ -7,6 +7,7 @@ body {
     margin: 0 auto;
     color: #333333;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    scroll-behavior: smooth;
 }
 
 section {
@@ -188,8 +189,17 @@ header h2 {
     transition-duration: 0.25s;
 }
 
+/* Galerija */
+
 .mobile-gallery {
     display: none;
+}
+
+.desktop-gallery {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
 }
 
 /* Footer */
@@ -229,7 +239,8 @@ footer h4 {
 }
 
 .about-text {
-    justify-content: center;
+    text-align: justify;
+    text-justify: inter-word;
     padding: 5px 5px;
 }
 
@@ -394,7 +405,7 @@ tr:nth-child(even) {
 
 /* Mobile phones */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
 
     section {
         padding: 0 2em 0 2em;
@@ -509,6 +520,9 @@ tr:nth-child(even) {
         overflow: hidden;
         display: inline-block;
         padding-bottom: 10px;
+        -webkit-overflow-scrolling: touch;
+        scroll-snap-points-x: repeat(300px);
+        scroll-snap-type: mandatory;
     }
 
     #slider figure img {
@@ -523,7 +537,7 @@ tr:nth-child(even) {
         left: 0;
         text-align: left;
         font-size: 0;
-        animation: 30s slidy infinite;
+        animation: 20s slidy infinite;
     }
 
     .desktop-gallery {
@@ -538,10 +552,10 @@ tr:nth-child(even) {
     }
 
     div.gallery {
-        margin: 5px;
+        margin: 3px;
         border: 1px solid #ccc;
         float: left;
-        width: 155px;
+        width: 150px;
     }
 
     div.gallery:hover {

@@ -2,60 +2,60 @@ document.write(
     `
 
 <div class="gallery">
-                <a target="_blank" href="photos/apartment-2/living-room.JPG">
-                    <img src="photos/apartment-2/living-room.JPG" alt="Dining Room" width="600" height="400">
+                <a target="_blank" href="photos/apartment-2/resized/living-room.jpg">
+                    <img src="photos/apartment-2/resized/living-room.jpg" alt="Dining Room" width="600" height="400">
                 </a>
                 <div class="desc">Lorem ipsum dolor sit amet</div>
             </div>
 
             <div class="gallery">
-                <a target="_blank" href="photos/apartment-2/living-room-2.JPG">
-                    <img src="photos/apartment-2/living-room-2.JPG" alt="Dining Room 2" width="600" height="400">
+                <a target="_blank" href="photos/apartment-2/resized/living-room-2.jpg">
+                    <img src="photos/apartment-2/resized/living-room-2.jpg" alt="Dining Room 2" width="600" height="400">
                 </a>
                 <div class="desc">Lorem ipsum dolor sit amet</div>
             </div>
 
             <div class="gallery">
-                <a target="_blank" href="photos/apartment-2/living-room-3.JPG">
-                    <img src="photos/apartment-2/living-room-3.JPG" alt="Kitchen" width="600" height="400">
+                <a target="_blank" href="photos/apartment-2/resized/living-room-3.jpg">
+                    <img src="photos/apartment-2/resized/living-room-3.jpg" alt="Kitchen" width="600" height="400">
                 </a>
                 <div class="desc">Lorem ipsum dolor sit amet</div>
             </div>
 
             <div class="gallery">
-                <a target="_blank" href="photos/apartment-2/stairs.JPG">
-                    <img src="photos/apartment-2/stairs.JPG" alt="Bed along with the dining room" width="600"
+                <a target="_blank" href="photos/apartment-2/resized/stairs.jpg">
+                    <img src="photos/apartment-2/resized/stairs.jpg" width="600"
                         height="400">
                 </a>
                 <div class="desc">Lorem ipsum dolor sit amet</div>
             </div>
 
             <div class="gallery">
-                <a target="_blank" href="photos/apartment-2/bedroom.JPG">
-                    <img src="photos/apartment-2/bedroom.JPG" alt="Bed along with the dining room" width="600" height="400">
+                <a target="_blank" href="photos/apartment-2/resized/bedroom.jpg">
+                    <img src="photos/apartment-2/resized/bedroom.jpg" width="600" height="400">
                 </a>
                 <div class="desc">Lorem ipsum dolor sit amet</div>
             </div>
 
             <div class="gallery">
-                <a target="_blank" href="photos/apartment-2/bedroom-2.JPG">
-                    <img src="photos/apartment-2/bedroom-2.JPG" alt="Bed along with the dining room" width="600"
+                <a target="_blank" href="photos/apartment-2/resized/bedroom-2.jpg">
+                    <img src="photos/apartment-2/resized/bedroom-2.jpg" width="600"
                         height="400">
                 </a>
                 <div class="desc">Lorem ipsum dolor sit amet</div>
             </div>
 
             <div class="gallery">
-                <a target="_blank" href="photos/apartment-2/bedroom-3.JPG">
-                    <img src="photos/apartment-2/bedroom-3.JPG" alt="Bed along with the dining room" width="600"
+                <a target="_blank" href="photos/apartment-2/resized/bedroom-3.jpg">
+                    <img src="photos/apartment-2/resized/bedroom-3.jpg" width="600"
                         height="400">
                 </a>
                 <div class="desc">Lorem ipsum dolor sit amet</div>
             </div>
 
             <div class="gallery">
-                <a target="_blank" href="photos/apartment-2/toilet.JPG">
-                    <img src="photos/apartment-2/toilet.JPG" alt="Bed along with the dining room" width="600"
+                <a target="_blank" href="photos/apartment-2/resized/toilet.jpg">
+                    <img src="photos/apartment-2/resized/toilet.jpg" width="600"
                         height="400">
                 </a>
                 <div class="desc">Lorem ipsum dolor sit amet</div>
