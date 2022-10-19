@@ -101,7 +101,7 @@ header h2 {
 }
 
 .title-underline {
-    width: 80px;
+    width: 100px;
     height: 3px;
     background-color: #FFAD0A;
     display: block;
@@ -403,6 +403,10 @@ tr:nth-child(even) {
     background-color: #f2f2f2;
 }
 
+#location a.buttons {
+    display: none;
+}
+
 /* Mobile phones */
 
 @media screen and (max-width: 768px) {
@@ -553,22 +557,16 @@ tr:nth-child(even) {
 
     div.gallery {
         margin: 3px;
-        border: 1px solid #ccc;
-        float: left;
         width: 150px;
-    }
-
-    div.gallery:hover {
-        border: 1px solid #777;
     }
 
     div.gallery img {
         width: 100%;
         height: auto;
+        border: 1px solid black;
     }
 
-    div.desc {
-        padding: 10px;
-        text-align: center;
+    #location a.buttons {
+        display: block;
     }
 }
